@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HW_8</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <form id="userForm" method="post">
+      <div id="inputs">
+        <label for="name">Enter name:</label>
+        <input type="text" id="name" name="userName" placeholder="Name..." />
+        <br />
+
+        <label for="datetime">Enter time:</label>
+        <input
+          type="text"
+          id="datetime"
+          name="userTime"
+          placeholder="Time..."
+        />
+        <br />
+
+        <label for="place">Enter place:</label>
+        <input type="text" id="place" name="userPlace" placeholder="Place..." />
+        <br />
+      </div>
+      <div id="buttons">
+        <button
+          type="button"
+          id="confirm"
+          onclick="validateForm()"
+        >
+          Confirm
+        </button>
+        <button type="button" id="converter" onclick="convertAmount()">
+          Converter
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
