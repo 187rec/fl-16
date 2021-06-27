@@ -1,0 +1,235 @@
+.text,
+.section_card_text,
+.footer-cr {
+  font-size: 11px;
+}
+
+body {
+  margin: inherit;
+  background-color: #202024;
+}
+
+.header {
+  background: url(/Users/an/Documents/EPAM/fl-16/FL16_HW3/homework/img/m-h-night.jpg)
+    100%;
+  padding-left: 125px;
+  font-family: "Hind", sans-serif;
+  color: white;
+  height: 475px;
+  border-radius: 0 0 38%;
+}
+.header .landing-logo > * {
+  display: inline-block;
+  font-family: "Fresca", sans-serif;
+}
+.header .landing-logo img {
+  width: 2.5%;
+}
+.header .landing-logo p {
+  margin: 10px;
+  font-size: 17px;
+}
+.header .landing-logo span {
+  display: block;
+  font-size: 7px;
+  padding-left: 5px;
+}
+.header_heading {
+  font-size: 48px;
+  width: 450px;
+  word-wrap: break-word;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 0.97em;
+  font-weight: 600;
+}
+.header_heading::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background-color: #ffa229;
+  width: 200px;
+  height: 40px;
+  margin-top: 52px;
+  opacity: 50%;
+}
+.header_text {
+  width: 370px;
+  word-wrap: break-word;
+  font-size: x-small;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  margin-bottom: 45px;
+}
+.header_button {
+  background-color: #fabf3e;
+  border: none;
+  border-radius: 0.1em;
+  color: white;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.header_button:hover {
+  background-color: #ffdf9a;
+  cursor: pointer;
+}
+.header .login {
+  padding-left: 100px;
+  color: white;
+  font-size: small;
+}
+
+.section {
+  font-family: "Hind", sans-serif;
+  margin: auto;
+  width: 740px;
+}
+.section_text {
+  font-size: 28.5px;
+  text-align: center;
+  margin: 22px;
+  color: white;
+}
+.section_text::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background-color: #ffa229;
+  width: 122px;
+  height: 40px;
+  opacity: 50%;
+  margin-left: 146px;
+}
+.section_card_wrap > * {
+  display: flex;
+}
+.section_link {
+  color: white;
+  font-size: x-small;
+}
+.section_card {
+  background-color: #2d2e36;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  height: auto;
+  padding: 20px;
+}
+.section_card_img {
+  border-radius: 6px;
+  width: 40%;
+  align-self: center;
+}
+.section_card_right_container {
+  text-align: center;
+  word-wrap: break-word;
+  width: 350px;
+  padding-left: 40px;
+}
+.section_card_text {
+  color: white;
+  word-wrap: break-word;
+  width: 300px;
+  text-align: justify;
+}
+.section_card_heading {
+  font-size: 16px;
+  color: white;
+  padding: 13px;
+}
+.section_banner {
+  background: linear-gradient(90deg, #fff150 0%, #ff005b 100%);
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-top: 10px;
+  height: 95px;
+  transform: translateY(50%);
+}
+.section_banner_text_wrap {
+  padding-left: 80px;
+  display: inline-block;
+  line-height: 12px;
+}
+.section_banner_heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.section_banner_heading::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background-color: #ffa229;
+  width: 48px;
+  height: 22px;
+  opacity: 50%;
+  margin-left: 78px;
+}
+.section_banner_text {
+  font-size: 11px;
+}
+.section_banner_button {
+  float: right;
+  margin: 30px;
+  margin-right: 80px;
+  background-color: #fabf3e;
+  border: none;
+  border-radius: 0.1em;
+  color: white;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.section_banner_button:hover {
+  background-color: #fff45c;
+  cursor: pointer;
+}
+
+.footer {
+  background: #2d2e36;
+  height: 150px;
+  font-family: "Hind", sans-serif;
+  color: #fff;
+  position: inherit;
+}
+.footer > * {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.footer_logo {
+  margin-top: 80px;
+}
+.footer_logo > * {
+  display: inline-block;
+  font-family: "Fresca", sans-serif;
+}
+.footer_logo img {
+  width: 2.5%;
+}
+.footer_logo p {
+  margin: 10px;
+  font-size: 17px;
+}
+.footer_logo span {
+  display: block;
+  font-size: 7px;
+  padding-left: 5px;
+}
+.footer_logo img {
+  width: 25%;
+}
+.footer_text {
+  margin-top: 84px;
+  text-align: justify;
+  font-size: 10px;
+  word-wrap: break-word;
+  width: 200px;
+}
+.footer-cr {
+  margin-top: 96px;
+}

@@ -1,0 +1,260 @@
+// Write your styles here
+@mixin buttons-style {
+  background-color: $buttonBgColor;
+  border: none;
+  border-radius: 0.1em;
+  color: white;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+@mixin links-style {
+  padding-left: 100px;
+  color: white;
+  font-size: small;
+}
+
+@mixin links-blocks-style {
+  color: white;
+  font-size: x-small;
+}
+
+@mixin logo {
+  & > * {
+    display: inline-block;
+    font-family: $logoFont;
+  }
+  img {
+    width: 2.5%;
+  }
+
+  p {
+    margin: 10px;
+    font-size: 17px;
+  }
+
+  span {
+    display: block;
+    font-size: 7px;
+    padding-left: 5px;
+  }
+}
+
+.text {
+  font-size: 11px;
+}
+
+body {
+  margin: inherit;
+  background-color: $contentBackground;
+}
+
+.header {
+  background: $headerBackground;
+  padding-left: 125px;
+  font-family: $fontFamily;
+  color: $textColorHeader;
+  height: 475px;
+  border-radius: 0 0 38%;
+
+  .landing-logo {
+    @include logo();
+  }
+
+  &_heading {
+    font-size: 48px;
+    width: 450px;
+    word-wrap: break-word;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 0.97em;
+    font-weight: 600;
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      background-color: $hoverTextColor;
+      width: 200px;
+      height: 40px;
+      margin-top: 52px;
+      opacity: 50%;
+    }
+  }
+
+  &_text {
+    width: 370px;
+    word-wrap: break-word;
+    font-size: x-small;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    margin-bottom: 45px;
+  }
+
+  &_button {
+    @include buttons-style();
+
+    &:hover {
+      background-color: map-get($buttonHoverColor, hover-color);
+      cursor: pointer;
+    }
+  }
+
+  .login {
+    @include links-style();
+  }
+}
+
+.section {
+  font-family: $fontFamily;
+  margin: auto;
+  width: 740px;
+
+  &_text {
+    font-size: 28.5px;
+    text-align: center;
+    margin: 22px;
+    color: $sectionTextColor;
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      background-color: $hoverTextColor;
+      width: 122px;
+      height: 40px;
+      opacity: 50%;
+      margin-left: 146px;
+    }
+  }
+
+  &_card_wrap {
+    & > * {
+      display: flex;
+    }
+  }
+
+  &_link {
+    @include links-blocks-style();
+  }
+
+  &_card {
+    background-color: $blocksFooterColor;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    height: auto;
+    padding: 20px;
+
+    &_img {
+      border-radius: 6px;
+      width: 40%;
+      align-self: center;
+    }
+
+    &_right_container {
+      text-align: center;
+      word-wrap: break-word;
+      width: 350px;
+      padding-left: 40px;
+    }
+
+    &_text {
+      @extend .text;
+      color: white;
+      word-wrap: break-word;
+      width: 300px;
+      text-align: justify;
+    }
+
+    &_heading {
+      font-size: 16px;
+      color: white;
+      padding: 13px;
+    }
+  }
+
+  &_banner {
+    background: $bannerBackground;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 10px;
+    height: 95px;
+    transform: translateY(50%);
+
+    &_text_wrap {
+      padding-left: 80px;
+      display: inline-block;
+      line-height: 12px;
+    }
+
+    &_heading {
+      font-size: 20px;
+      font-weight: bold;
+
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        background-color: $hoverTextColor;
+        width: 48px;
+        height: 22px;
+        opacity: 50%;
+        margin-left: 78px;
+      }
+    }
+
+    &_text {
+      font-size: 11px;
+    }
+
+    &_button {
+      float: right;
+      margin: 30px;
+      margin-right: 80px;
+      @include buttons-style();
+
+      &:hover {
+        background-color: map-get($buttonHoverColor, background-color);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.footer {
+  background: $blocksFooterColor;
+  height: 150px;
+  font-family: $fontFamily;
+  color: $textColorFooter;
+  position: inherit;
+
+  & > * {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  &_logo {
+    @include logo();
+    margin-top: 80px;
+    img {
+      width: 25%;
+    }
+  }
+
+  &_text {
+    margin-top: 84px;
+    text-align: justify;
+    font-size: 10px;
+    word-wrap: break-word;
+    width: 200px;
+  }
+
+  &-cr {
+    margin-top: 96px;
+    @extend .text;
+  }
+}
