@@ -1,0 +1,23 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.card-section {
+  background-color: #525252;
+}
+
+.bigcard-section {
+  background-color: rgb(247, 247, 247);
+}
+
+.card {
+  background-color: #525252;
+}
+
+.btn {
+  background-color: coral;
+}
+
+.btn:hover {
+  background-color: lightcoral;
+}
