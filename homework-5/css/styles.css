@@ -1,0 +1,580 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-padding {
+  background-color: #fff;
+  height: 44px;
+}
+
+.header-body {
+  background: url(/Users/an/Documents/EPAM/fl-16/FL16_HW5/homework/img/header_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 477px;
+}
+
+.header-background {
+  display: inline-table;
+  margin-top: 11.8%;
+  margin-left: 11%;
+}
+
+.header-wrap {
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.header-logo {
+  float: left;
+  margin-left: 11%;
+  margin-top: 0.7%;
+}
+
+.header-menu {
+  float: right;
+  margin-top: 1%;
+  margin-right: 12%;
+  word-spacing: 11px;
+}
+
+a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+.header-logo .logoimg {
+  width: 85%;
+}
+
+.header-title {
+  width: 66%;
+  letter-spacing: 1.8px;
+  line-height: 40px;
+}
+
+.header-text {
+  width: 49%;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 2%;
+  color: #363636;
+}
+
+.header-icons {
+  word-spacing: 15px;
+}
+
+.btn {
+  width: 5.3%;
+  background-color: #0078aa;
+  border: 1px solid;
+  color: #fff;
+  padding: 7px 8px;
+  /* font-size: 13px; */
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.btn2 {
+  width: 5.3%;
+  padding: 8px 8px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #0078aa;
+  border: 1px solid #0078aa;
+}
+
+.btn3 {
+  padding: 9px 11px;
+  font-size: 13px;
+}
+
+.main-about {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.toolsimg {
+  width: 50%;
+  margin-top: 4%;
+}
+
+.about-content {
+  float: right;
+  width: 50%;
+}
+
+.content-title1 {
+  margin-top: 18%;
+  margin-left: 4%;
+  font-size: 27px;
+  margin-bottom: unset;
+}
+
+.content-small-title-blue {
+  font-size: 12px;
+  margin-left: 4%;
+  margin-top: 0.6%;
+  color: #0078aa;
+}
+
+.content-small-title {
+  font-size: 12px;
+  margin-left: 4%;
+  margin-top: 0.6%;
+  color: black;
+}
+
+.caption-about {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.caption-about span {
+  color: #0078aa;
+  font-size: 8px;
+  margin-right: 0.6%;
+}
+
+.small-about {
+  margin-left: 4%;
+  font-size: 12px;
+  width: 54%;
+  color: #363636;
+}
+
+.main-help {
+  background: url(/Users/an/Documents/EPAM/fl-16/FL16_HW5/homework/img/services_bg.jpg);
+}
+
+.title-main-help,
+.title-main-offers {
+  text-align: center;
+}
+
+.content-title2 {
+  margin-top: 8%;
+  margin-left: 0.5%;
+  font-size: 27px;
+  margin-bottom: unset;
+}
+
+.content-small-title2 {
+  margin-top: 0.6%;
+  font-size: 11.5px;
+}
+
+.main-container {
+  display: grid;
+  grid: repeat(2, 48%) / auto-flow 26%;
+  height: 470px;
+  justify-content: center;
+}
+.main-container > div {
+  background-color: #fff;
+  width: 93%;
+  height: 90%;
+}
+
+.main-container .main-help-img {
+  width: 36%;
+  margin-top: 9.5%;
+  margin-left: 7%;
+}
+
+.caption-help {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-left: 7.5%;
+}
+
+.small-help {
+  margin-left: 7%;
+  font-size: 12px;
+  width: 90%;
+  color: #363636;
+}
+
+.main-offers {
+  background: url(/Users/an/Documents/EPAM/fl-16/FL16_HW5/homework/img/pricing_bg.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 100%;
+}
+.offers {
+  display: inline-grid;
+  grid: repeat(1, 50%) / auto-flow 26%;
+  grid-auto-rows: 50%;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.content-title3 {
+  margin-top: 6%;
+  margin-left: 0.6%;
+  font-size: 27px;
+  margin-bottom: unset;
+}
+
+.content-small-title3 {
+  margin-top: 0%;
+  font-size: 13px;
+}
+
+.small-offer {
+  border: solid #0078aa;
+  color: #fff;
+  background-color: skyblue;
+  height: fit-content;
+  width: 100%;
+  margin-top: 16%;
+}
+
+.big-offer {
+  border: solid #0078aa;
+  color: #0078aa;
+  background-color: #fff;
+  height: 507px;
+  width: 99%;
+  margin-top: 8%;
+}
+
+.small-offer-title,
+.big-offer-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 11%;
+  margin-bottom: 4%;
+}
+
+.big-offer-title {
+  margin-top: 18%;
+}
+
+.price {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.treatments {
+  margin-top: 1.5%;
+  margin-left: 35%;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.small-offer > ul,
+.big-offer > ul {
+  font-size: 11px;
+  text-align: center;
+  list-style: none;
+  line-height: 34px;
+  margin-top: 6%;
+  padding-left: unset;
+}
+
+.cross {
+  font-size: 40px;
+}
+
+.button-get-now {
+  width: 100%;
+  margin-bottom: 7%;
+}
+
+.get-now {
+  background-color: #fff;
+  color: #0078aa;
+  border: 2px solid;
+  width: 30%;
+  height: 40px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+}
+
+.get-now:hover {
+  background-color: #0078aa;
+  color: #fff;
+  border: 2px solid;
+}
+
+.main-appoitment {
+  margin-top: 3%;
+  height: auto;
+  width: 100%;
+}
+
+.lady-doctor .contactimg {
+  float: left;
+  width: 51%;
+}
+
+.main-appoitment-form {
+  float: left;
+  width: 49%;
+}
+
+.content-title {
+  margin-left: 2.3%;
+  font-size: 27px;
+  margin-top: 7.5%;
+  margin-bottom: 1%;
+}
+
+.inputs {
+  display: block;
+  padding-left: 2%;
+}
+
+input {
+  width: 90%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 11px;
+  font-style: italic;
+}
+
+input[type="text"] {
+  padding: 8px 4px;
+  margin: 1.5%;
+  border-bottom: 1px solid #eee;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+  padding: 8px 9px;
+  margin: 0.7%;
+}
+
+input[type="number"],
+input[type="date"] {
+  border-bottom: 1px solid #eee;
+}
+
+.submit {
+  background-color: #0078aa;
+  color: #fff;
+  border: 2px solid;
+  width: 13%;
+  height: 40px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #0078aa;
+  border: 2px solid #0078aa;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  background-color: #363636;
+  width: 100%;
+  display: inline-block;
+}
+
+#button-top {
+  position: fixed;
+  float: right;
+  right: 5.5%;
+  bottom: 5%;
+  background-color: #0078aa;
+  border: none;
+  color: #fff;
+  padding: 0px 14px;
+  font-size: 42px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#button-top a {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  margin: -6px;
+}
+
+#button-top:hover {
+  background-color: #7dbbf1;
+}
+
+@media only screen and (max-width: 767px) {
+  .header-logo {
+    margin-left: 43%;
+  }
+
+  .header-body {
+    margin-top: 7%;
+    height: 340px;
+  }
+
+  .header-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-icons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn {
+    width: 14.3%;
+    padding: 6px 8px;
+  }
+
+  .toolsimg {
+    width: 100%;
+  }
+
+  .about-content {
+    width: 100%;
+    text-align: center;
+    margin-right: 4%;
+  }
+
+  .small-about {
+    width: 100%;
+  }
+
+  .main-container {
+    display: table-row-group;
+    width: 100%;
+  }
+
+  .main-container > div {
+    margin-left: 3%;
+  }
+
+  .main-offers {
+    background: none;
+  }
+
+  .offers {
+    display: block;
+  }
+
+  .small-offer {
+    margin-top: 5%;
+  }
+
+  .lady-doctor .contactimg {
+    width: 100%;
+  }
+
+  .main-appoitment-form {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .inputs {
+    text-align: center;
+  }
+
+  .submit {
+    width: 19%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .header-logo {
+    margin-left: 3%;
+  }
+
+  .header-menu {
+    margin-right: 3%;
+  }
+
+  .header-background {
+    margin-left: 3%;
+  }
+
+  .btn {
+    width: 6.3%;
+  }
+
+  .main-about {
+    width: 100%;
+  }
+
+  .toolsimg {
+    margin-top: 12%;
+  }
+
+  .small-about {
+    width: 100%;
+  }
+
+  .main-container {
+    grid: repeat(2, 48%) / auto-flow 30%;
+  }
+
+  .main-offers {
+    background-position: bottom;
+  }
+
+  .offers {
+    grid: repeat(1, 50%) / auto-flow 32%;
+  }
+
+  .big-offer {
+    height: 470px;
+  }
+
+  .main-appoitment {
+    display: inline-flex;
+    height: auto;
+  }
+
+  .lady-doctor .contactimg {
+    width: 100%;
+  }
+
+  .main-appoitment-form {
+    width: 100%;
+    background: #fff;
+    margin-left: -20%;
+    position: relative;
+  }
+
+  .submit {
+    width: 18%;
+  }
+}
