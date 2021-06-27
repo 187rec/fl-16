@@ -1,0 +1,70 @@
+/* START: Task 1 Styles */
+
+#table {
+  text-align: -webkit-center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 45px;
+}
+
+.white{
+  background-color: white;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2{
+  text-align: center;
+}
+
+form {
+  margin: 60px;
+  text-align: center;
+  display: inline-grid;
+}
+
+input{
+  padding: 10px;
+}
+
+.inputNumber{
+  width: 300px;
+}
+
+.inputNumber:focus-visible{
+  border: 2px solid black;
+  outline: inherit;
+}
+
+.redBorder{
+  border: 2px solid red;
+}
+
+.red{
+  background-color: rgb(247, 130, 149);
+  color: white;
+  border: 1px solid grey;
+}
+
+.green {
+  background-color: rgb(3, 145, 86);
+  color: white;
+  border: 1px solid grey;
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+/* END: Task 3 Styles */
