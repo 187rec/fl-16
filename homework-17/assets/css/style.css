@@ -1,0 +1,61 @@
+﻿* {
+  outline: none;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+main {
+  width: fit-content;
+  text-align: center;
+}
+
+.header-caption {
+  width: fit-content;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 50% !important;
+  align-self: center !important;
+}
+
+.row {
+  justify-content: center !important;
+}
+
+.col-paragraph {
+  text-align: left !important;
+}
+
+#touch-button {
+  background-image: url(/Users/an/Documents/EPAM/fl-16/FL16_HW3/homework/assets/img/touch-bg.png);
+  background-size: cover;
+  width: 16%;
+}
+
+#contact {
+  background-color: black;
+}
+
+.message-form {
+  width: 83% !important;
+}
+
+.first-hr {
+  width: 70px;
+}
+
+.second-hr {
+  width: 30px;
+}
+
+.third-hr,
+.fourth-hr {
+  width: 90px;
+}
+
+.reference-img {
+  width: 33% !important;
+}
